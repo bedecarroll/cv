@@ -6,7 +6,8 @@ export const RESUME_DATA: ResumeData = {
   initials: "BC",
   location: "San Francisco Bay Area, CA, USA",
   locationLink: "https://www.google.com/maps/place/San_Francisco_Bay_Area",
-  about: "Experienced Network and Site Reliability Engineer specializing in cloud infrastructure and automation.",
+  about:
+    "Experienced Network and Site Reliability Engineer specializing in cloud infrastructure and automation.",
   summary: (
     <>
       Network and Site Reliability Engineer with extensive experience in cloud infrastructure,
@@ -56,14 +57,15 @@ export const RESUME_DATA: ResumeData = {
   ],
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
+      company: "TikTok USDS",
+      link: "https://usds.tiktok.com",
+      badges: ["Cloud", "Networking", "SRE", "Load Balancer", "Python"],
+      title: "Site Reliablility Engineer, Cloud Infrastructure",
+      start: "2024",
       end: null,
       description: (
         <>
+<<<<<<< HEAD
           Working on internal AI agents platform allowing marketing specialists
           to create AI workflows.
         </>
@@ -92,7 +94,6 @@ export const RESUME_DATA: ResumeData = {
       description: (
         <>
           Build, design and maintain production cloud infrastructure.
-
           <ul className="list-inside list-disc">
             <li>
               Build, maintain, and optimize cloud automation solutions using Ansible, Terraform,
