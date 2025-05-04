@@ -15,7 +15,7 @@ export const RESUME_DATA: ResumeData = {
       scalable solutions across multi-cloud environments. Proven track record in designing and
       maintaining complex network systems at Meta and TikTok, with expertise in troubleshooting,
       monitoring, and optimizing infrastructure for reliability and performance.
-</>
+    </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/4151340?v=4",
   personalWebsiteUrl: "https://bedecarroll.com",
