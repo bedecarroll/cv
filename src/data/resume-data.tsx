@@ -9,15 +9,16 @@ export const RESUME_DATA = {
     "Experienced Network and Site Reliability Engineer specializing in cloud infrastructure and automation.",
   summary: (
     <>
-      Network and Site Reliability Engineer with extensive experience in cloud infrastructure, 
-      network design, and automation. Skilled in Python, Ansible, and Terraform for building 
-      scalable solutions across multi-cloud environments. Proven track record in designing and 
-      maintaining complex network systems at Meta and TikTok, with expertise in troubleshooting, 
+      Network and Site Reliability Engineer with extensive experience in cloud infrastructure,
+      network design, and automation. Skilled in Python, Ansible, and Terraform for building
+      scalable solutions across multi-cloud environments. Proven track record in designing and
+      maintaining complex network systems at Meta and TikTok, with expertise in troubleshooting,
       monitoring, and optimizing infrastructure for reliability and performance.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/4151340?v=4",
   personalWebsiteUrl: "https://bedecarroll.com",
+  baseUrl: "https://cv.bedecarroll.com",
   contact: {
     email: "cv@bedecarroll.com",
     tel: "+16504958623",
