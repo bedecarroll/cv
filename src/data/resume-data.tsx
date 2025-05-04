@@ -6,13 +6,14 @@ export const RESUME_DATA = {
   location: "San Francisco Bay Area, CA, USA",
   locationLink: "https://www.google.com/maps/place/San_Francisco_Bay_Area",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Experienced Network and Site Reliability Engineer specializing in cloud infrastructure and automation.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Network and Site Reliability Engineer with extensive experience in cloud infrastructure, 
+      network design, and automation. Skilled in Python, Ansible, and Terraform for building 
+      scalable solutions across multi-cloud environments. Proven track record in designing and 
+      maintaining complex network systems at Meta and TikTok, with expertise in troubleshooting, 
+      monitoring, and optimizing infrastructure for reliability and performance.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/4151340?v=4",
