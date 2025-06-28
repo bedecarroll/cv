@@ -56,12 +56,27 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Motion",
+      link: "https://motionapp.com/",
+      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
+      title: "Senior Software Engineer",
+      logo: ConsultlyLogo,
+      start: "2025",
+      end: null,
+      description: (
+        <>
+          Working on internal AI agents platform allowing marketing specialists
+          to create AI workflows.
+        </>
+      ),
+    },
+    {
       company: "OpenAI",
       link: "https://openai.com",
       badges: ["Security", "Networking", "SRE", "Python"],
       title: "Member of Technical Staff, Network Security Engineer",
       start: "2025",
-      end: null,
+      end: "2025",
       description: (
         <>
           Design, build and operate secure networks.
