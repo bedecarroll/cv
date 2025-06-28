@@ -1,6 +1,7 @@
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
-export const RESUME_DATA = {
+import type { ResumeData } from "@/lib/types";
+
+export const RESUME_DATA: ResumeData = {
   name: "Bede Carroll",
   initials: "BC",
   location: "San Francisco Bay Area, CA, USA",
@@ -26,17 +27,17 @@ export const RESUME_DATA = {
       {
         name: "GitHub",
         url: "https://github.com/bedecarroll",
-        icon: GitHubIcon,
+        icon: "github",
       },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/bedecarroll/",
-        icon: LinkedInIcon,
+        icon: "linkedin",
       },
       {
         name: "X",
         url: "https://x.com/bedecarroll",
-        icon: XIcon,
+        icon: "x",
       },
     ],
   },
@@ -60,7 +61,6 @@ export const RESUME_DATA = {
       link: "https://motionapp.com/",
       badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
       title: "Senior Software Engineer",
-      logo: ConsultlyLogo,
       start: "2025",
       end: null,
       description: (
