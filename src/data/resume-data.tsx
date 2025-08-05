@@ -1,4 +1,3 @@
-
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
