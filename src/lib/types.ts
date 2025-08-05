@@ -13,6 +13,7 @@ export interface ResumeData {
   summary: string | React.ReactNode;
   avatarUrl: string;
   personalWebsiteUrl: string;
+  baseUrl: string;
   contact: {
     email: string;
     tel: string;
