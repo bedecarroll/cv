@@ -18,6 +18,7 @@ export const RESUME_DATA: ResumeData = {
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/4151340?v=4",
   personalWebsiteUrl: "https://bedecarroll.com",
+  baseUrl: "https://cv.bedecarroll.com",
   contact: {
     email: "cv@bedecarroll.com",
     tel: "+16504958623",
