@@ -56,12 +56,25 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "OpenAI",
+      link: "https://openai.com",
+      badges: ["Security", "Networking", "SRE", "Python"],
+      title: "Member of Technical Staff, Network Security Engineer",
+      start: "2025",
+      end: null,
+      description: (
+        <>
+          Design, build and operate secure networks.
+        </>
+      ),
+    },
+    {
       company: "TikTok USDS",
       link: "https://usds.tiktok.com",
       badges: ["Cloud", "Networking", "SRE", "Load Balancer", "Python"],
       title: "Site Reliablility Engineer, Cloud Infrastructure",
       start: "2024",
-      end: null,
+      end: "2025",
       description: (
         <>
           Build, design and maintain production cloud infrastructure.
