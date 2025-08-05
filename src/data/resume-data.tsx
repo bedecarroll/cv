@@ -1,6 +1,6 @@
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import type { ResumeData } from "@/lib/types";
 
-export const RESUME_DATA = {
+export const RESUME_DATA: ResumeData = {
   name: "Bede Carroll",
   initials: "BC",
   location: "San Francisco Bay Area, CA, USA",
@@ -26,17 +26,17 @@ export const RESUME_DATA = {
       {
         name: "GitHub",
         url: "https://github.com/bedecarroll",
-        icon: GitHubIcon,
+        icon: "github",
       },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/bedecarroll/",
-        icon: LinkedInIcon,
+        icon: "linkedin",
       },
       {
         name: "X",
         url: "https://x.com/bedecarroll",
-        icon: XIcon,
+        icon: "x",
       },
     ],
   },
