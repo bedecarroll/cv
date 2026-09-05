@@ -84,7 +84,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <ErrorBoundary>{children}</ErrorBoundary>
       </body>
-      <Analytics />
+      {process.env.CV_STATIC_EXPORT !== "1" && <Analytics />}
     </html>
   );
 }
