@@ -1,0 +1,24 @@
+min_version = "2025.9.10"
+
+[tasks.install]
+description = "Install dependencies"
+run = "bun install"
+
+[tasks.lint]
+description = "Run oxlint and oxfmt check"
+depends = ["install"]
+run = "bun run lint"
+
+[tasks.lint-fix]
+description = "Auto-fix lint and formatting issues"
+depends = ["install"]
+run = "bun run lint-fix"
+
+[tasks.build]
+description = "Build the Next.js app"
+depends = ["install"]
+run = "bun run build"
+
+[tasks.check]
+description = "Aggregate lint and build"
+depends = ["lint", "build"]

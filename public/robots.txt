@@ -1,0 +1,12 @@
+# Robots.txt for https://cv.bedecarroll.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap location
+Sitemap: https://cv.bedecarroll.com/sitemap.xml
+
+# Crawl-delay for responsible crawling
+Crawl-delay: 1
