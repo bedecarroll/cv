@@ -12,8 +12,6 @@
 
 A clean and modern web app that renders a minimalist CV/Resume with a print-friendly layout.
 
-This repository is a read-only mirror of `public/cv` in the source monorepo.
-Changes and dependency updates are made there, then published to this repository.
 Cloudflare Pages builds `main` and serves [cv.bedecarroll.com](https://cv.bedecarroll.com).
 
 To reproduce the Pages build, use the Bun version in `package.json`:
