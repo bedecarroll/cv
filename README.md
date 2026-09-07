@@ -12,7 +12,8 @@
 
 A clean and modern web app that renders a minimalist CV/Resume with a print-friendly layout.
 
-Cloudflare Pages builds `main` and serves [cv.bedecarroll.com](https://cv.bedecarroll.com).
+Cloudflare Workers builds `main` and serves [cv.bedecarroll.com](https://cv.bedecarroll.com)
+and [resume.bedecarroll.com](https://resume.bedecarroll.com).
 
 To produce static assets, use the Bun version in `package.json`:
 
