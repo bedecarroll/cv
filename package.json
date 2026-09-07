@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "oxlint ./src && oxfmt --check ./src",
     "lint-fix": "oxlint --fix ./src && oxfmt ./src",
-    "build:pages": "CV_STATIC_EXPORT=1 next build"
+    "build:pages": "bun run build:static",
+    "build:static": "CV_STATIC_EXPORT=1 next build"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.2.6",

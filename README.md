@@ -14,16 +14,20 @@ A clean and modern web app that renders a minimalist CV/Resume with a print-frie
 
 Cloudflare Pages builds `main` and serves [cv.bedecarroll.com](https://cv.bedecarroll.com).
 
-To reproduce the Pages build, use the Bun version in `package.json`:
+To produce static assets, use the Bun version in `package.json`:
 
 ```sh
 bun install --frozen-lockfile
-bun run build:pages
+bun run build:static
 ```
 
 The static site is written to `out/`, including the generated social image and
 Cloudflare response headers. `bun run build` retains the Next.js server build
 used by Docker.
+
+The Workers configuration in `wrangler.jsonc` serves the same static output.
+To deploy the Worker, run `bunx wrangler@4.129.0 deploy` after building.
+Custom domains are configured separately.
 
 ## ✨ Features
 
